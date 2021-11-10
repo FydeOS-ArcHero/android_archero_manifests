@@ -6,6 +6,7 @@
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
 
-  <project path="external/arc-mesa3d" name="arc-mesa3d" remote="github" revision="pi-r92" />
-  <project path="external/arc-libdrm" name="arc-libdrm" remote="github" revision="pi-r92" />
+  <project path="external/mesa3d" name="external_mesa3d" remote="github" revision="pie-r92" />
+  <project path="external/libdrm" name="external_libdrm" remote="github" revision="pie-r92" />
+  <project path="external/minigbm" name="external_minigbm" remote="github" revision="pie-r92" />
 </manifest>
