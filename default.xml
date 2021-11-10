@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- <remote  name="aosp"
-           revision="refs/tags/android-7.1.1_r13"
-           fetch="https://android.googlesource.com/" /> -->
+  <remote name="github" fetch="https://github.com/FydeOS-ArcHero" />
+  <remote name="fydeos" fetch="https://android.googlesource.com/" />
 
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
+
+  <project path="external/arc-mesa3d" name="arc-mesa3d" remote="github" revision="pi-r92" />
+  <project path="external/arc-libdrm" name="arc-libdrm" remote="github" revision="pi-r92" />
 </manifest>
