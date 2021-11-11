@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com/FydeOS-ArcHero" />
-  <remote name="fydeos" fetch="https://android.googlesource.com/" />
+  <remote name="fydeos" fetch="https://gitlab.fydeos.xyz" />
 
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
   <remove-project path="external/minigbm" name="platform/external/minigbm" />
   <remove-project path="external/wayland" name="platform/external/wayland" />
-  <remove-project path="external_minijail" name="platform/external/minijail" />
-
+  <remove-project path="external/minijail" name="platform/external/minijail" />
+  <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" />
+  <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" />
 
   <project path="external/mesa3d" name="external_mesa3d" remote="github" revision="pie-r92" />
   <project path="external/libdrm" name="external_libdrm" remote="github" revision="pie-r92" />
   <project path="external/minigbm" name="external_minigbm" remote="github" revision="pie-r92" />
   <project path="external/wayland" name="external_wayland" remote="github" revision="pie-r92" />
   <project path="external/minijail" name="external_minijail" remote="github" revision="pie-r92" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="github" revision="pie-r92" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="github" revision="pie-r92" />
+
+  <project path="device/fydeos" name="arf/archero-device" remote="fydeos" revision="master" />
+
 </manifest>
