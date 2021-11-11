@@ -10,6 +10,8 @@
   <remove-project path="external/minijail" name="platform/external/minijail" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <remove-project path="frameworks/base" name="platform/frameworks/base" />
+  <remove-project path="frameworks/native" name="platform/frameworks/native" />
 
   <project path="external/mesa3d" name="external_mesa3d" remote="github" revision="pie-r92" />
   <project path="external/libdrm" name="external_libdrm" remote="github" revision="pie-r92" />
@@ -18,6 +20,8 @@
   <project path="external/minijail" name="external_minijail" remote="github" revision="pie-r92" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="github" revision="pie-r92" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="github" revision="pie-r92" />
+  <project path="frameworks/native" name="frameworks_native" remote="github" revision="pie-r92" />
+  <project path="frameworks/base" name="arf/frameworks_base" remote="fydeos" revision="pie-r92" />
 
   <project path="device/fydeos" name="arf/archero-device" remote="fydeos" revision="master" />
 
