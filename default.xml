@@ -7,9 +7,12 @@
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
   <remove-project path="external/minigbm" name="platform/external/minigbm" />
   <remove-project path="external/wayland" name="platform/external/wayland" />
+  <remove-project path="external_minijail" name="platform/external/minijail" />
+
 
   <project path="external/mesa3d" name="external_mesa3d" remote="github" revision="pie-r92" />
   <project path="external/libdrm" name="external_libdrm" remote="github" revision="pie-r92" />
   <project path="external/minigbm" name="external_minigbm" remote="github" revision="pie-r92" />
   <project path="external/wayland" name="external_wayland" remote="github" revision="pie-r92" />
+  <project path="external/minijail" name="external_minijail" remote="github" revision="pie-r92" />
 </manifest>
