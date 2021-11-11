@@ -14,6 +14,7 @@
   <remove-project path="frameworks/native" name="platform/frameworks/native" />
   <remove-project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <remove-project path="system/core" name="platform/system/core" />
+  <remove-project path="system/netd" name="platform/system/netd" />
 
 
   <project path="external/mesa3d" name="external_mesa3d" remote="github" revision="pie-r92" />
@@ -27,6 +28,7 @@
   <project path="frameworks/base" name="arf/frameworks_base" remote="fydeos" revision="pie-r92" />
   <project path="frameworks/opt/net/ethernet" name="arf/frameworks_opt_net_ethernet" remote="fydeos" revision="pie-r92" />
   <project path="system/core" name="arf/system_core" remote="fydeos" revision="pie-r92" />
+  <project path="system/netd" name="arf/system_netd" remote="fydeos" revision="pie-r92" />
 
 
   <project path="device/fydeos" name="arf/archero-device" remote="fydeos" revision="master" />
