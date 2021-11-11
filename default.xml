@@ -12,7 +12,9 @@
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" />
+  <remove-project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <remove-project path="system/core" name="platform/system/core" />
+
 
   <project path="external/mesa3d" name="external_mesa3d" remote="github" revision="pie-r92" />
   <project path="external/libdrm" name="external_libdrm" remote="github" revision="pie-r92" />
@@ -23,7 +25,9 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="github" revision="pie-r92" />
   <project path="frameworks/native" name="frameworks_native" remote="github" revision="pie-r92" />
   <project path="frameworks/base" name="arf/frameworks_base" remote="fydeos" revision="pie-r92" />
+  <project path="frameworks/opt/net/ethernet" name="arf/frameworks_opt_net_ethernet" remote="fydeos" revision="pie-r92" />
   <project path="system/core" name="arf/system_core" remote="fydeos" revision="pie-r92" />
+
 
   <project path="device/fydeos" name="arf/archero-device" remote="fydeos" revision="master" />
 
