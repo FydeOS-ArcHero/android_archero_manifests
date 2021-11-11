@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com/FydeOS-ArcHero" />
-  <remote name="fydeos" fetch="https://gitlab.fydeos.xyz" />
+  <remote name="fydeos" fetch="ssh://git@gitlab.fydeos.xyz" />
 
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
