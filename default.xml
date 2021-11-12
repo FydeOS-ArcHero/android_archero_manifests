@@ -25,7 +25,7 @@
   <project path="external/minigbm" name="external_minigbm" remote="github" revision="pie-r92" />
   <project path="external/wayland" name="external_wayland" remote="github" revision="pie-r92" />
   <project path="external/minijail" name="external_minijail" remote="github" revision="pie-r92" />
-  <project path="external/wayland-protocols" name="external_wayland-protocols" remote="fydeos" revision="pie-r92" />
+  <project path="external/wayland-protocols" name="arf/external_wayland-protocols" remote="fydeos" revision="pie-r92" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="github" revision="pie-r92" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="github" revision="pie-r92" />
   <project path="frameworks/native" name="frameworks_native" remote="github" revision="pie-r92" />
