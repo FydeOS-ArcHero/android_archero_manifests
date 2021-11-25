@@ -13,7 +13,6 @@
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" />
-  <remove-project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <remove-project path="system/core" name="platform/system/core" />
   <remove-project path="system/netd" name="platform/system/netd" />
   <remove-project path="system/vold" name="platform/system/vold" />
@@ -30,7 +29,6 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="github" revision="pie-r92" />
   <project path="frameworks/native" name="frameworks_native" remote="github" revision="pie-r92" />
   <project path="frameworks/base" name="arf/frameworks_base" remote="fydeos" revision="pie-r92" />
-  <project path="frameworks/opt/net/ethernet" name="arf/frameworks_opt_net_ethernet" remote="fydeos" revision="pie-r92" />
   <project path="system/core" name="arf/system_core" remote="fydeos" revision="pie-r92" />
   <project path="system/netd" name="arf/system_netd" remote="fydeos" revision="pie-r92" />
   <project path="system/vold" name="arf/system_vold" remote="fydeos" revision="pie-r92" />
