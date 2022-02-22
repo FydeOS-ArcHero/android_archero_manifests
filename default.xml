@@ -19,20 +19,20 @@
   <remove-project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
 
 
-  <project path="external/mesa3d" name="external_mesa3d" remote="github" revision="pie-r92" />
-  <project path="external/libdrm" name="external_libdrm" remote="github" revision="pie-r92" />
-  <project path="external/minigbm" name="external_minigbm" remote="github" revision="pie-r92" />
-  <project path="external/wayland" name="external_wayland" remote="github" revision="pie-r92" />
-  <project path="external/minijail" name="external_minijail" remote="github" revision="pie-r92" />
-  <project path="external/wayland-protocols" name="arf/external_wayland-protocols" remote="fydeos" revision="pie-r92" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="github" revision="pie-r92" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="github" revision="pie-r92" />
-  <project path="frameworks/native" name="frameworks_native" remote="github" revision="pie-r92" />
-  <project path="frameworks/base" name="arf/frameworks_base" remote="fydeos" revision="pie-r92" />
-  <project path="system/core" name="arf/system_core" remote="fydeos" revision="pie-r92" />
-  <project path="system/netd" name="arf/system_netd" remote="fydeos" revision="pie-r92" />
-  <project path="system/vold" name="arf/system_vold" remote="fydeos" revision="pie-r92" />
-  <project path="packages/apps/PackageInstaller" name="arf/packages_apps_packageInstaller" remote="fydeos" revision="pie-r92" />
+  <project path="external/mesa3d" name="arf/external_mesa3d" groups="pdk-cw-fs,pdk-fs" remote="fydeos" revision="pie-r92" />
+  <project path="external/libdrm" name="arf/external_libdrm" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="external/minigbm" name="arf/external_minigbm" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="external/wayland" name="arf/external_wayland" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="external/minijail" name="arf/external_minijail" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="external/wayland-protocols" name="arf/external_wayland-protocols" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="hardware/interfaces" name="arf/hardware_interfaces" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="hardware/libhardware" name="arf/hardware_libhardware" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="frameworks/native" name="arf/frameworks_native" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="frameworks/base" name="arf/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fydeos" revision="pie-r92" />
+  <project path="system/core" name="arf/system_core" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="system/netd" name="arf/system_netd" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="system/vold" name="arf/system_vold" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="packages/apps/PackageInstaller" name="arf/packages_apps_packageInstaller" groups="pdk-cw-fs,pdk-fs" remote="fydeos" revision="pie-r92" />
 
 
   <project path="device/fydeos" name="arf/archero-device" remote="fydeos" revision="master" />
