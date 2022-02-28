@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="https://github.com/FydeOS-ArcHero" />
+  <remote name="github" fetch="ssh://git@github.com/FydeOS-ArcHero" />
   <remote name="fydeos" fetch="ssh://git@gitlab.fydeos.xyz" />
 
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
@@ -9,6 +9,8 @@
   <remove-project path="external/wayland" name="platform/external/wayland" />
   <remove-project path="external/minijail" name="platform/external/minijail" />
   <remove-project path="external/wayland-protocols" name="platform/external/wayland-protocols" />
+  <remove-project path="external/libmojo" name="platform/external/libmojo" />
+  <remove-project path="external/libchrome" name="platform/external/libchrome" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" />
@@ -25,16 +27,17 @@
   <project path="external/wayland" name="external_wayland" remote="github" revision="pie-r92" />
   <project path="external/minijail" name="external_minijail" remote="github" revision="pie-r92" />
   <project path="external/wayland-protocols" name="arf/external_wayland-protocols" remote="fydeos" revision="pie-r92" />
+  <project path="external/libchrome" name="arf/libchrome" remote="fydeos" revision="pie-gsi-fix" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="github" revision="pie-r92" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="github" revision="pie-r92" />
   <project path="frameworks/native" name="frameworks_native" remote="github" revision="pie-r92" />
-  <project path="frameworks/base" name="arf/frameworks_base" remote="fydeos" revision="pie-r92" />
+  <project path="frameworks/base" name="arf/frameworks_base" remote="fydeos" revision="new_seamless" />
   <project path="system/core" name="arf/system_core" remote="fydeos" revision="pie-r92" />
   <project path="system/netd" name="arf/system_netd" remote="fydeos" revision="pie-r92" />
   <project path="system/vold" name="arf/system_vold" remote="fydeos" revision="pie-r92" />
   <project path="packages/apps/PackageInstaller" name="arf/packages_apps_packageInstaller" remote="fydeos" revision="pie-r92" />
 
 
-  <project path="device/fydeos" name="arf/archero-device" remote="fydeos" revision="master" />
+  <project path="device/fydeos" name="arf/archero-device" remote="fydeos" revision="new_seamless" />
 
 </manifest>
