@@ -9,6 +9,8 @@
   <remove-project path="external/wayland" name="platform/external/wayland" />
   <remove-project path="external/minijail" name="platform/external/minijail" />
   <remove-project path="external/wayland-protocols" name="platform/external/wayland-protocols" />
+  <remove-project path="external/libmojo" name="platform/external/libmojo" />
+  <remove-project path="external/libchrome" name="platform/external/libchrome" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" />
@@ -25,6 +27,7 @@
   <project path="external/wayland" name="arf/external_wayland" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="external/minijail" name="arf/external_minijail" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="external/wayland-protocols" name="arf/external_wayland-protocols" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="external/libchrome" name="arf/libchrome" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="hardware/interfaces" name="arf/hardware_interfaces" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="hardware/libhardware" name="arf/hardware_libhardware" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="frameworks/native" name="arf/frameworks_native" groups="pdk" remote="fydeos" revision="pie-r92" />
