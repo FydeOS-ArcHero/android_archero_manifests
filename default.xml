@@ -3,6 +3,7 @@
   <remote name="github" fetch="https://github.com/FydeOS-ArcHero" />
   <remote name="fydeos" fetch="ssh://git@gitlab.fydeos.xyz" />
 
+  <remove-project path="build/make" name="platform/build" />
   <remove-project path="external/libdrm" name="platform/external/libdrm" />
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
   <remove-project path="external/minigbm" name="platform/external/minigbm" />
@@ -11,6 +12,7 @@
   <remove-project path="external/wayland-protocols" name="platform/external/wayland-protocols" />
   <remove-project path="external/libmojo" name="platform/external/libmojo" />
   <remove-project path="external/libchrome" name="platform/external/libchrome" />
+  <remove-project path="external/squashfs-tools" name="platform/external/squashfs-tools" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" />
   <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" />
@@ -18,9 +20,19 @@
   <remove-project path="system/core" name="platform/system/core" />
   <remove-project path="system/netd" name="platform/system/netd" />
   <remove-project path="system/vold" name="platform/system/vold" />
+  <remove-project path="system/extras" name="platform/system/extras" />
   <remove-project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
 
 
+  <project path="build/make" name="arf/build_make" groups="pdk" remote="fydeos" revision="pie-r92">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <project path="external/mesa3d" name="arf/external_mesa3d" groups="pdk-cw-fs,pdk-fs" remote="fydeos" revision="pie-r92" />
   <project path="external/libdrm" name="arf/external_libdrm" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="external/minigbm" name="arf/external_minigbm" groups="pdk" remote="fydeos" revision="pie-r92" />
@@ -28,6 +40,7 @@
   <project path="external/minijail" name="arf/external_minijail" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="external/wayland-protocols" name="arf/external_wayland-protocols" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="external/libchrome" name="arf/libchrome" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="external/squashfs-tools" name="arf/external_squashfs-tools" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="hardware/interfaces" name="arf/hardware_interfaces" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="hardware/libhardware" name="arf/hardware_libhardware" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="frameworks/native" name="arf/frameworks_native" groups="pdk" remote="fydeos" revision="pie-r92" />
@@ -35,6 +48,7 @@
   <project path="system/core" name="arf/system_core" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="system/netd" name="arf/system_netd" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="system/vold" name="arf/system_vold" groups="pdk" remote="fydeos" revision="pie-r92" />
+  <project path="system/extras" name="arf/system_extras" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="packages/apps/PackageInstaller" name="arf/packages_apps_packageInstaller" groups="pdk-cw-fs,pdk-fs" remote="fydeos" revision="pie-r92" />
 
 
