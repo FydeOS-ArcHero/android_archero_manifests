@@ -14,7 +14,6 @@
   <remove-project path="external/libchrome" name="platform/external/libchrome" />
   <remove-project path="external/squashfs-tools" name="platform/external/squashfs-tools" />
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" />
-  <remove-project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <remove-project path="frameworks/base" name="platform/frameworks/base" />
   <remove-project path="frameworks/native" name="platform/frameworks/native" />
   <remove-project path="system/core" name="platform/system/core" />
@@ -43,7 +42,6 @@
   <project path="external/libchrome" name="arf/libchrome" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="external/squashfs-tools" name="arf/external_squashfs-tools" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="hardware/interfaces" name="arf/hardware_interfaces" groups="pdk" remote="fydeos" revision="pie-r92" />
-  <project path="hardware/libhardware" name="arf/hardware_libhardware" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="frameworks/native" name="arf/frameworks_native" groups="pdk" remote="fydeos" revision="pie-r92" />
   <project path="frameworks/base" name="arf/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fydeos" revision="pie-r92" />
   <project path="system/core" name="arf/system_core" groups="pdk" remote="fydeos" revision="pie-r92" />
